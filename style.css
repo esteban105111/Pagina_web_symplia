@@ -1,0 +1,63 @@
+body {
+  font-family: 'Inter', sans-serif;
+  color: #0A214A;
+}
+
+header {
+  background: linear-gradient(120deg, #0A214A, #243B6B);
+  color: white;
+}
+
+.hero {
+  padding: 120px 0;
+  text-align: center;
+  background: linear-gradient(135deg, #0A214A 0%, #1B2E58 50%, #243B6B 100%);
+  color: white;
+}
+
+.hero img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #0A214A;
+}
+
+.service-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  background-color: #0A214A;
+  color: white;
+  padding: 40px 0;
+}
+
+.btn-whatsapp {
+  background-color: #25D366;
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1EBE5D;
+  color: white;
+}
+
+/* Espacio para el header fijo */
+body::before {
+  content: "";
+  display: block;
+  height: 80px;
+}
