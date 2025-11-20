@@ -4,14 +4,14 @@ body {
 }
 
 header {
-  background: linear-gradient(120deg, #0A214A, #243B6B);
+  background: linear-gradient(120deg, #1e3a5f, #243B6B);
   color: white;
 }
 
 .hero {
   padding: 120px 0;
   text-align: center;
-  background: linear-gradient(135deg, #0A214A 0%, #1B2E58 50%, #243B6B 100%);
+  background: linear-gradient(135deg, #1e3a5f 0%, #1e3a5f 50%, #243B6B 100%);
   color: white;
 }
 
@@ -23,7 +23,7 @@ header {
 .section-title {
   font-weight: 700;
   margin-bottom: 20px;
-  color: #0A214A;
+  color: #1e3a5f;
 }
 
 .service-card {
@@ -38,7 +38,7 @@ header {
 }
 
 footer {
-  background-color: #0A214A;
+  background-color: #1e3a5f;
   color: white;
   padding: 40px 0;
 }
