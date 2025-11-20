@@ -3,11 +3,13 @@ body {
   color: #1e3a5f;
 }
 
+/* Header */
 header {
   background: linear-gradient(120deg, #1e3a5f, #243B6B);
   color: white;
 }
 
+/* Hero */
 .hero {
   padding: 120px 0;
   text-align: center;
@@ -20,12 +22,14 @@ header {
   margin-bottom: 20px;
 }
 
+/* Títulos */
 .section-title {
   font-weight: 700;
   margin-bottom: 20px;
   color: #1e3a5f;
 }
 
+/* Tarjetas */
 .service-card {
   border: none;
   border-radius: 12px;
@@ -37,12 +41,14 @@ header {
   transform: translateY(-5px);
 }
 
+/* Footer */
 footer {
   background-color: #1e3a5f;
   color: white;
   padding: 40px 0;
 }
 
+/* Botón WhatsApp */
 .btn-whatsapp {
   background-color: #25D366;
   color: white;
@@ -55,9 +61,77 @@ footer {
   color: white;
 }
 
-/* Espacio para el header fijo */
+/* Espacio por header fijo */
 body::before {
   content: "";
   display: block;
   height: 80px;
+}
+
+/* ---------------------------------------- */
+/*            RESPONSIVE DESIGN             */
+/* ---------------------------------------- */
+
+/* Header responsive */
+@media (max-width: 768px) {
+  header .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  header nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  header nav .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+/* Hero responsive */
+@media (max-width: 768px) {
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .hero img {
+    width: 85px;
+  }
+
+  .hero h1 {
+    font-size: 1.9rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
+/* Cards spacing */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+/* Servicios, beneficios y secciones */
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .list-group-item {
+    font-size: 0.95rem;
+  }
+}
+
+/* Botón WhatsApp responsive */
+@media (max-width: 576px) {
+  .btn-whatsapp {
+    width: 100%;
+    font-size: 1rem;
+  }
 }
